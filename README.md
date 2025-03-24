@@ -1,0 +1,2 @@
+# metro_bootcamp
+AKBANK PYTHON VE YAPAY ZEKAYA GİRİŞ BOOTCAMP Projesi
