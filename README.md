@@ -50,12 +50,12 @@ hizli_rota = metro.en_hizli_rota_bul("T4", "M1")
 
 ### Test Sonuçları
 
-| Senaryo                   | Girdi               | Beklenen Çıktı         | Sonuç        |
-|---------------------------|---------------------|------------------------|--------------|
-| **1. Senaryo**            | AŞTİ → OSB         | 25 dk, 1 aktarma       | Başarılı ✅  |
-| **2. Senaryo**            | Batıkent → Keçiören | 21 dk, 0 aktarma       | Başarılı ✅  |
-| **3. Senaryo**            | Geçersiz İstasyon   | Hata mesajı            | Başarılı ✅  |
-
+| Test No | Başlangıç İstasyonu | Bitiş İstasyonu | En Az Aktarmalı Rota                                    | En Hızlı Rota (Dakika) |
+|---------|----------------------|------------------|---------------------------------------------------------|------------------------|
+| 1       | AŞTİ                  | OSB              | AŞTİ -> Kızılay -> Kızılay -> Ulus -> Demetevler -> OSB           | 25 dakika             |
+| 2       | Batıkent              | Keçiören         | Batıkent -> Demetevler -> Gar -> Keçiören              | 21 dakika             |
+| 3       | Keçiören              | AŞTİ              | Keçiören -> Gar -> Gar -> Sıhhiye -> Kızılay -> AŞTİ           | 19 dakika             |
+| 4       | Kızılay               | Ulus             | Kızılay -> Ulus                                          | 4 dakika              |
 ---
 
 ## 5. Projeyi Geliştirme Fikirleri
