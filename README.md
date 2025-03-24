@@ -52,7 +52,7 @@ hizli_rota = metro.en_hizli_rota_bul("T4", "M1")
 
 | Senaryo                   | Girdi               | Beklenen Çıktı         | Sonuç        |
 |---------------------------|---------------------|------------------------|--------------|
-| **1. Senaryo**            | AŞTİ → OSB         | 25 dk, 2 aktarma       | Başarılı ✅  |
+| **1. Senaryo**            | AŞTİ → OSB         | 25 dk, 1 aktarma       | Başarılı ✅  |
 | **2. Senaryo**            | Batıkent → Keçiören | 21 dk, 0 aktarma       | Başarılı ✅  |
 | **3. Senaryo**            | Geçersiz İstasyon   | Hata mesajı            | Başarılı ✅  |
 
