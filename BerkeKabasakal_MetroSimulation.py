@@ -18,7 +18,7 @@ class MetroAgi:
         self.hatlar: Dict[str, List[Istasyon]] = defaultdict(list)
 
     def istasyon_ekle(self, idx: str, ad: str, hat: str) -> None:
-        if id not in self.istasyonlar:
+        if idx not in self.istasyonlar:
             istasyon = Istasyon(idx, ad, hat)
             self.istasyonlar[idx] = istasyon
             self.hatlar[hat].append(istasyon)
