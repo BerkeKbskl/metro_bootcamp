@@ -55,7 +55,6 @@ hizli_rota = metro.en_hizli_rota_bul("T4", "M1")
 | 1       | AŞTİ                  | OSB              | AŞTİ -> Kızılay -> Kızılay -> Ulus -> Demetevler -> OSB           | 25 dakika             |
 | 2       | Batıkent              | Keçiören         | Batıkent -> Demetevler -> Gar -> Keçiören              | 21 dakika             |
 | 3       | Keçiören              | AŞTİ              | Keçiören -> Gar -> Gar -> Sıhhiye -> Kızılay -> AŞTİ           | 19 dakika             |
-| 4       | Kızılay               | Ulus             | Kızılay -> Ulus                                          | 4 dakika              |
 ---
 
 ## 5. Projeyi Geliştirme Fikirleri
